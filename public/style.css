@@ -1,0 +1,90 @@
+/* Hides table headers, don't delete */
+#taskTable thead {
+  display: none;
+}
+
+body {
+  color: white;
+  background-color: slategray;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 0.25em;
+  cursor: pointer;
+}
+
+th {
+  height: 0;
+  overflow: hidden;
+}
+
+th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+  margin-left: 5px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	border-color: white transparent;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* This is for the clickable text in the tables */
+.btn-text {
+  background: none;
+  border: none;
+  color: blue;
+  text-align: left;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.scrollable-container {
+  height: 600px; /* Set desired height */
+  width: 400px;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional, for better visibility */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cadetblue;
+}
+
+.selected-item {
+  background-color: DarkSlateGray; 
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

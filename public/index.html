@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>~todo</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Page Title</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="datepicker.min.css">
+</head>
+
+<body>
+
+	<a href="completed.html">View completed tasks</a>
+
+	<br><br><br><br>
+
+	<div id="mainAppContainer" style="display: flex;" class="center-div">
+		<div id="listSideContainer">
+			<div id="listControlsContainer" class="center-div">
+				sort by:
+				<select id="sortSelect">
+					<option value='dueSoonest'>Due date</option>
+					<option value='newestFirst'>Newest</option>
+					<option value='oldestFirst'>Oldest</option>
+					<option value='byCategory'>Type</option>
+				</select>
+				&nbsp;&nbsp;pin high priority:
+				<input type="checkbox" id="pinHighPriorityCheckbox" checked>
+				<button id="newBtn">New Task</button>
+			</div>
+
+			<div id="taskListContainer" class='scrollable-container'>
+				<table id="taskTable">
+					<thead>
+						<tr>
+							<th>Task Name</th>
+							<th style="display: none;">Creation Time</th>
+							<th style="display: none;">Category</th>
+							<th style="display: none;">Priority</th>
+							<th style="display: none;">Due Time</th>
+							<th style="display: none;">Completion Time</th>
+							<th style="display: none;">Days To Resurrect</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+
+		<div id="formContainer">
+			<div class="center-div">
+				name:
+				<input type="text" id="nameBox" style="width: 300px;"></input>
+			</div>
+
+			<div class="center-div">
+				<select id="catSelect"></select>
+				<select id="prioritySelect">
+					<option value=1>🔥</option>
+					<option value=0>➖</option>
+					<option value=-1>💤</option>
+				</select>
+			</div>
+
+			<div class="center-div">
+				due:
+				<input type="text" id="dueBox" style="width: 100px;" readOnly></textarea>
+				<button id="clearDue">X</button>
+				res:
+				<input type="number" id="resurrectBox" style="width: 50px;" min="0" />
+				<button id="doneBtn">Complete</button>
+			</div>
+
+			<div class="center-div">
+				<textarea id="notesBox" style="width: 400px; height: 550px; resize: none;"></textarea>
+			</div>
+		</div>
+	</div>
+
+	<br><br><br><br>
+
+	<script src="datepicker.min.js"></script>
+	<script src="main.js"></script>
+
+</body>

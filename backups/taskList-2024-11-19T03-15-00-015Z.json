@@ -1,0 +1,350 @@
+{
+  "lastModified": 1731985686584,
+  "categories": {
+    "idk": "🤷",
+    "Work": "👽",
+    "House": "🏠",
+    "Cleaning": "🧹",
+    "Repairs": "🔨",
+    "Purchase": "💸",
+    "Think On It": "🧠",
+    "Family": "👪",
+    "Contractor": "🦺",
+    "Computer": "💻",
+    "Medical": "🩺",
+    "Yardwork": "🍂",
+    "Self": "🦾"
+  },
+  "tasks": {
+    "1729962209493": {
+      "taskCreationTime": 1729962209493,
+      "taskName": "Repair hull breach in sector 7",
+      "taskCategory": "Repairs",
+      "taskPriority": "1",
+      "taskDueTime": 1730347200000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Seal with emergency patch kit. Ensure no residual atmosphere leaks.",
+      "daysToResurrect": "3"
+    },
+    "1729962210000": {
+      "taskCreationTime": 1729962210000,
+      "taskName": "Identify local edible plant species",
+      "taskCategory": "Medical",
+      "taskPriority": "0",
+      "taskDueTime": 1730520000000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Start with non-toxic looking foliage. Observe any effects after consumption.",
+      "daysToResurrect": "0"
+    },
+    "1729962210100": {
+      "taskCreationTime": 1729962210100,
+      "taskName": "Upgrade blaster targeting system",
+      "taskCategory": "Computer",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "",
+      "daysToResurrect": "7"
+    },
+    "1729962210200": {
+      "taskCreationTime": 1729962210200,
+      "taskName": "Clean cockpit windshield",
+      "taskCategory": "Cleaning",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Remove alien dust for better visibility. Avoid scratching surface.",
+      "daysToResurrect": "0"
+    },
+    "1729962210300": {
+      "taskCreationTime": 1729962210300,
+      "taskName": "Analyze energy readings near crash site ",
+      "taskCategory": "Think On It",
+      "taskPriority": "0",
+      "taskDueTime": 1731387600000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Look for anomalies. Potential fuel or repair resource?",
+      "daysToResurrect": "2"
+    },
+    "1729962210400": {
+      "taskCreationTime": 1729962210400,
+      "taskName": "Locate nearest water source",
+      "taskCategory": "Family",
+      "taskPriority": "1",
+      "taskDueTime": 1730347200000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Use filtration system for purification.",
+      "daysToResurrect": "0"
+    },
+    "1729962210500": {
+      "taskCreationTime": 1729962210500,
+      "taskName": "Map local terrain within 5 km radius",
+      "taskCategory": "Work",
+      "taskPriority": 0,
+      "taskDueTime": 1731462200000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Chart elevations and obstacles. Potential escape routes.",
+      "daysToResurrect": 5
+    },
+    "1729962210600": {
+      "taskCreationTime": 1729962210600,
+      "taskName": "Stockpile emergency rations",
+      "taskCategory": "Contractor",
+      "taskPriority": "-1",
+      "taskDueTime": 1731992400000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Acquire local wildlife or vegetation.",
+      "daysToResurrect": "10"
+    },
+    "1729962210700": {
+      "taskCreationTime": 1729962210700,
+      "taskName": "Secure landing gear",
+      "taskCategory": "Repairs",
+      "taskPriority": 1,
+      "taskDueTime": 1731162209493,
+      "taskCompletionTime": 0,
+      "taskNotes": "Check hydraulic systems and apply lubricant.",
+      "daysToResurrect": 3
+    },
+    "1729962210800": {
+      "taskCreationTime": 1729962210800,
+      "taskName": "Create makeshift communication relay",
+      "taskCategory": "Medical",
+      "taskPriority": "0",
+      "taskDueTime": 1731733200000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Use scavenged parts to send distress signal.",
+      "daysToResurrect": "0"
+    },
+    "1729962210900": {
+      "taskCreationTime": 1729962210900,
+      "taskName": "Construct shelter near cave entrance",
+      "taskCategory": "House",
+      "taskPriority": "0",
+      "taskDueTime": 1732078800000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Use available rocks and foliage for insulation.",
+      "daysToResurrect": "4"
+    },
+    "1729962211000": {
+      "taskCreationTime": 1729962211000,
+      "taskName": "Oil and clean weapons cache",
+      "taskCategory": "Cleaning",
+      "taskPriority": "-1",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "",
+      "daysToResurrect": "4"
+    },
+    "1729962211100": {
+      "taskCreationTime": 1729962211100,
+      "taskName": "Develop navigation route to settlement",
+      "taskCategory": "Yardwork",
+      "taskPriority": "0",
+      "taskDueTime": 1732683600000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Avoid hostile areas and unknown terrain.",
+      "daysToResurrect": "0"
+    },
+    "1729962211200": {
+      "taskCreationTime": 1729962211200,
+      "taskName": "Trade alien artifacts for food",
+      "taskCategory": "Purchase",
+      "taskPriority": "-1",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Valuable metals preferred. Keep small reserve.",
+      "daysToResurrect": "2"
+    },
+    "1729962211300": {
+      "taskCreationTime": 1729962211300,
+      "taskName": "Locate planetary defense system",
+      "taskCategory": "Purchase",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Establishd coordinates for system control points.",
+      "daysToResurrect": "0"
+    },
+    "1729962211400": {
+      "taskCreationTime": 1729962211400,
+      "taskName": "Install perimeter alarms",
+      "taskCategory": "Contractor",
+      "taskPriority": "0",
+      "taskDueTime": 1731560400000,
+      "taskCompletionTime": 0,
+      "taskNotes": "",
+      "daysToResurrect": "3"
+    },
+    "1729962211500": {
+      "taskCreationTime": 1729962211500,
+      "taskName": "Repair spaceship oxygen generator",
+      "taskCategory": "Repairs",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Test for leaks before activating.",
+      "daysToResurrect": "3"
+    },
+    "1729962211600": {
+      "taskCreationTime": 1729962211600,
+      "taskName": "Scout for alternative shelter",
+      "taskCategory": "Family",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Avoid marsh areas prone to flooding.",
+      "daysToResurrect": "0"
+    },
+    "1729962211700": {
+      "taskCreationTime": 1729962211700,
+      "taskName": "Check engine cooling systems",
+      "taskCategory": "Medical",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Ensure safed temperature levels.",
+      "daysToResurrect": "0"
+    },
+    "1729962211800": {
+      "taskCreationTime": 1729962211800,
+      "taskName": "Gather exotic minerals",
+      "taskCategory": "idk",
+      "taskPriority": "-1",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Look for iridescent rocks for aesthetic purposes.",
+      "daysToResurrect": "0"
+    },
+    "1729962211900": {
+      "taskCreationTime": 1729962211900,
+      "taskName": "Fortify escape pod access point",
+      "taskCategory": "House",
+      "taskPriority": "1",
+      "taskDueTime": 1730520000000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Ensure locks and seal are intact.",
+      "daysToResurrect": "4"
+    },
+    "1729962212000": {
+      "taskCreationTime": 1729962212000,
+      "taskName": "Inspect medkit supplies",
+      "taskCategory": "Medical",
+      "taskPriority": "1",
+      "taskDueTime": 1730174400000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Ensure painkillers and antiseptics are sufficient.",
+      "daysToResurrect": "0"
+    },
+    "1729962209993": {
+      "taskCreationTime": 1729962209993,
+      "taskName": "Clean hallway bathroom",
+      "taskCategory": "Medical",
+      "taskPriority": "0",
+      "taskDueTime": 1730955600000,
+      "taskCompletionTime": 1731548637289,
+      "taskNotes": "Focus on a minimalist style with a clean layout.Ensure color contrast is accessible.",
+      "daysToResurrect": "0"
+    },
+    "1729962209494": {
+      "taskCreationTime": 1729962209494,
+      "taskName": "Make dentist appt",
+      "taskCategory": "Medical",
+      "taskPriority": "0",
+      "taskDueTime": 1730955600000,
+      "taskCompletionTime": 0,
+      "taskNotes": "Define endpoints for tasks and notes retrieval.</p><p>Test each endpoint with dummy data.",
+      "daysToResurrect": "0"
+    },
+    "1729962209495": {
+      "taskCreationTime": 1729962209495,
+      "taskName": "shutter painting quotes",
+      "taskCategory": "Contractor",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Define endpoints for tasks and notes retrieval.Test each endpoint with dummy data.",
+      "daysToResurrect": "0"
+    },
+    "1729962209496": {
+      "taskCreationTime": 1729962209496,
+      "taskName": "no notes here",
+      "taskCategory": "Computer",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "huh",
+      "daysToResurrect": "0"
+    },
+    "1729962209497": {
+      "taskCreationTime": 1729962209497,
+      "taskName": "Clear out morning glory",
+      "taskCategory": "Yardwork",
+      "taskPriority": "-1",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "Include section on key challenges and solutions.",
+      "daysToResurrect": "30"
+    },
+    "1731157037717": {
+      "taskCreationTime": 1731157037717,
+      "taskName": "New thing test",
+      "taskCategory": "Computer",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 1731378199612,
+      "taskNotes": "",
+      "daysToResurrect": "0"
+    },
+    "1731447157009": {
+      "taskCreationTime": 1731447157009,
+      "taskName": "what is happening",
+      "taskCategory": "Computer",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 1731856982880,
+      "taskNotes": "I think it works",
+      "daysToResurrect": "0"
+    },
+    "1731635480322": {
+      "taskCreationTime": 1731635480322,
+      "taskName": "another idk test",
+      "taskCategory": "idk",
+      "taskPriority": "1",
+      "taskDueTime": 1733893200000,
+      "taskCompletionTime": 1731866949559,
+      "taskNotes": "",
+      "daysToResurrect": "0"
+    },
+    "1731789783299": {
+      "taskCreationTime": 1731789783299,
+      "taskName": "now what to do",
+      "taskCategory": "idk",
+      "taskPriority": "0",
+      "taskDueTime": null,
+      "taskCompletionTime": 1731866978083,
+      "taskNotes": "",
+      "daysToResurrect": "0"
+    },
+    "1731857086637": {
+      "taskCreationTime": 1731857086637,
+      "taskName": "hobby bobby",
+      "taskCategory": "Self",
+      "taskPriority": "1",
+      "taskDueTime": null,
+      "taskCompletionTime": 0,
+      "taskNotes": "install that mister board\n- test on sony tv\n\ncomplete repairs of jvc\n\ntry to connect steam deck to crt\n\ndownload exodos when the linux patch is available\n\n",
+      "daysToResurrect": "0"
+    },
+    "1731875940747": {
+      "taskCreationTime": 1731875940747,
+      "taskName": "move 1500 out of rewards",
+      "taskCategory": "Purchase",
+      "taskPriority": "1",
+      "taskDueTime": 1727755200000,
+      "taskCompletionTime": 0,
+      "taskNotes": "and return the digitone. this is no joke, ok?",
+      "daysToResurrect": "0"
+    }
+  }
+}
